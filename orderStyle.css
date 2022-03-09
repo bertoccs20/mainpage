@@ -1,0 +1,110 @@
+.billRemove button {
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.billRemove button:hover .fa-times {
+    color: red;
+}
+
+.orderQuan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.orderQuan input::-webkit-outer-spin-button,
+.orderQuan input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.orderQuan input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.orderQuan input {
+    width: 50px;
+    outline: none;
+    text-align: center;
+    height: 30px;
+    border: none;
+}
+.orderQuan input:focus {
+    outline: none;
+}
+
+.incDecBtn {
+    width: 35px;
+    height: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quanUpdate {
+    width: fit-content;
+    height: 30px;
+    border: none;
+    background-color: #78b7ee;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: -70px;
+    display: none;
+}
+.billPr {
+    display: flex;
+}
+
+.dontshow {
+    width: 0;
+    height: 0;
+    padding: 0 !important;
+}
+
+.orderImg img {
+    width: 36px;
+}
+
+
+.countRel {
+    position: relative;
+}
+.countTotalOrder {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #E6213C;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+
+
+
+
+.pdngbtom {
+    padding-bottom: 2.5rem;
+}
+.logo {
+    display: none;
+}
+.scbginner {
+    transition: .3s;
+    min-height: calc(100vh - 100px);
+}
+.scbginner.active {
+    padding-top: 5rem;
+}
+.section_menu {
+    margin-top: 0;
+}

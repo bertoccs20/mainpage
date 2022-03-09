@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+button, input {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+@font-face {
+
+    font-family: 'amithem';
+
+    src: url('./font/amithen.ttf');
+
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.divide, .divide2, .divide3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: .3s;
+}
+.divideSp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: .3s;
+}
+.divideCalc, .divideCalc2, .divideCalc3 {
+    width: 500px;
+    padding: 10px 15px;
+    background: #ffffff;
+    z-index: 1000;
+    transition: .3s;
+}
+.divideCalc3 .divideThank {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divideCalc3 .divideThank h1 {
+    font-size: 37px;
+    font-weight: 600;
+    color: #17b5c2;
+    margin-bottom: 60px;
+}
+.divideCalc3 .divideThank h2 {
+    font-family: 'amithem';
+    font-size: 51px;
+    position: absolute;
+    top: 19px;
+}
+.divideCalc label {
+    /* color: #555555; */
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+.divideTop {
+    font-size: 53px;
+    color: #17B5C2;
+    text-align: center;
+}
+.dividePara {
+    font-size: 20px;
+    color: #555555;
+    font-weight: 500;
+    text-align: center;
+}
+.billTotal {
+    background-color: #F7F3EE;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.billTotal img {
+    position: absolute;
+    width: 50px;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-260%);
+}
+.billTotal p {
+    font-size: 30px;
+    color: #555555;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.divInp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#people {
+    height: 40px;
+    border: 1px solid #000;
+    width: 164px;
+    margin-right: 5px;
+    font-size: 23px;
+    outline: none;
+    text-align: center;
+}
+#people:focus {
+    outline: none;
+}
+
+.divInp button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: #17B5C2;
+    color: #fff;
+    border-radius: 8px;
+}
+.totalPr, .totalPr2, .prSp {
+    color: #17B5C2;
+    margin-bottom: 10px !important;
+    font-size: 53px;
+    text-align: center;
+}
+.yourBill {
+    font-size: 20px;
+    color: #555555;
+}
+.eachPay {
+    /* color: #f8f8f8; */
+    font-size: 25px;
+}
+
+.payBtn {
+    width: 130px;
+    height: 40px;
+    display: none;
+    margin-top: 35px;
+    font-size: 18px;
+    border: none;
+}
+
+.payBtn1 {
+    width: 130px;
+    height: 40px;
+    margin-top: 35px;
+    font-size: 18px;
+    border: none;
+}
+
+.payBtn.active {
+    display: block !important;
+}
+
+
+.billOverlay {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: -160%;
+    left: 0;
+    background-color: #0000008a;
+    transition: .3s;
+    opacity: 0;
+}
+
+
+.closeBtnDivide, .closeBtnDivide2, .closeBtnDivide3, .closeBtnDivideSp {
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1001;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+
+.billOverlay.active {
+    top: 0;
+    opacity: 1;
+    z-index: 1000;
+}
+/* .divide.active, .divide2.active, .divide3.active {
+    top: 50%;
+    opacity: 1;
+} */

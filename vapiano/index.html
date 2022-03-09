@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Vapino</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+  <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/style.css?v=1.8'>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <style>
+      .afterAnimation{
+        opacity: 0;
+        animation: body 1s ease 6.5s 1 normal forwards;
+      }
+      @keyframes body {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+  </style>
+    
+
+</head>
+<body>
+    <div class="all-content-wrapper">
+        <div class="colorful-lines-container">
+            <div class="color-line color-line1"></div>
+            <div class="color-line color-line2"></div>
+            <div class="color-line color-line3"></div>
+            <div class="color-line color-line4"></div>
+            <div class="color-line color-line5"></div>
+            <div class="color-line color-line6"></div>
+            <div class="color-line color-line7"></div>
+        </div>
+        <div class="center-v-img">
+            <img src="img/VAPIANO_whitev.fw.png" alt="VAPIANO_whitev">
+        </div>
+        <div class="bottom-images-container">
+            <div class="bottom-logo">
+                <img src="img/VAPIANO_logo.png" alt="VAPIANO_logo">
+            </div>
+            <!-- <div class="bottom-center-img">
+                <img src="PASTA_placeholder.png" alt="PASTA_placeholder">
+            </div> -->
+            <div class="bottom-text-img">
+                <img alt="PASTA_text">
+            </div>
+        </div>
+    </div>
+
+    <div class="afterAnimation">
+        <div class="header">
+            <p>VAPIANO DUSSELDORF MEDIHAFEN.</p>
+        </div>
+
+        <!-- for bottom padding -->
+        <div class="pdngbtom"></div>
+
+        <div class="logo">
+            <img src="img/VAPIANO_logo.png">
+        </div>
+
+        <main class="bgpinkish">
+            <section class="joinScreen">
+                <h3 class="joinHdng">are you joining a table?</h3>
+                <p class="joinSubtext textgreen">write the name setted for the <br>table you joining</p>
+                <form method="post" action="home.html" class="joinForm">
+                    <input type="text" class="vapiano_table" placeholder="Table name here..." name="" value="">
+                    <button type="submit" class="btntable bggreen">Done</button>
+                </form>
+            </section>
+
+            <section class="joinScreen">
+                <h3 class="joinHdng">or</h3>
+                <h3 class="joinHdng">create a new one?</h3>
+                <p class="joinSubtext textblue">choose your table name</p>
+                <form method="post" action="home.html" class="joinForm">
+                    <input type="text" class="vapiano_table" placeholder="Table name here..." name="" value="">
+                    <button type="submit" class="btntable bgblue">Done</button>
+                </form>
+            </section>
+        </main>
+    </div>   
+
+ 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src='js/bootstrap.bundle.min.js'></script>
+    <script src='js/slick.min.js'></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src='js/main.js'></script>
+    <script src="js/jquery.input-counter.js"></script>
+
+    <script>
+   
+      $(".all-content-wrapper").show();
+    setTimeout(function() { 
+        $(".all-content-wrapper").hide(); 
+    }, 6000);
+
+    const bottomTextImg = document.querySelector(".bottom-text-img")
+const bottomTextSelectedImg = bottomTextImg.querySelector("img")
+
+
+const randomImgList = [
+    'img/Animations PLACEHOLDERS-04.png',
+    'img/Animations PLACEHOLDERS-05.png',
+    'img/Animations PLACEHOLDERS-06.png',
+    'img/Animations PLACEHOLDERS-07.png'
+]
+
+const randomLoad = Math.floor(Math.random() * randomImgList.length)
+
+bottomTextSelectedImg.setAttribute('src', randomImgList[randomLoad])
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+
+
+.allBillItems {
+    border-bottom: 2px solid red;
+}
+
+.placebtn button {
+    width: 32%;
+    margin: 6px 0 !important;
+}
+
+.priceHold {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.priceHold h1 {
+    font-size: 30px;
+}
+
+
+.payWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.spSpan {
+    width: 45%;
+    height: 60px;
+    padding: 0px 10px;
+    background: #17B5C2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.spSpan2 {
+    width: 45%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #17B5C2;
+    height: 60px;
+    padding: 0 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.spSpan img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+.spSpan2 img{
+    width: 100%;
+    height: 47%;
+    object-fit: contain;
+}
+.spSpan2 p {
+    margin: 0;
+}
+.happyService {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.happyService h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.happyService h3 {
+    color: #17B5C2;
+    font-size: 28px;
+}
+.modes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.singleMode {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.singleMode img {
+    width: 57%;
+    margin-bottom: 10px;
+}
+.singleMode input {
+    transform: scale(1.4);
+    margin-bottom: 5px;
+}
+.tipAmount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tipAmount h3 {
+    font-size: 21px;
+    font-weight: 600;
+}
+.tipWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tipWrap input {
+    height: 40px;
+    border: 1px solid #000;
+    margin-right: 5px;
+    width: 164px;
+    font-size: 23px;
+    outline: none;
+    text-align: center;
+}
+.tipWrap input:focus {
+    outline: none;
+}
+.tipWrap button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: #17B5C2;
+    color: #fff;
+    border-radius: 8px;
+}
+
+
+
+.totalPr2 span {
+    color: #17B5C2;
+}
+.prSp span {
+    color: #17B5C2;
+    font-size: 52px;
+}
+
+
+
+
+
+.divideCalc2 h1 {
+    margin-bottom: 30px;
+}
+
+.innericon img {
+    width: 36px;
+}
+
+
+
+.divideBottomBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.divideBottomBtn button {
+    width: 47%;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    background: #17B5C2;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.divideCalc3 .countDown {
+    background-color: #17B5C2;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divideCalc3 .countDown i {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 40px;
+}
+.timer {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+
+
+/* .flickity-viewport {
+    width: 100% !important;
+    height: 100% !important;
+} */
+/* .kitchenImgSlider {
+    width: 100%;
+    height: 100px;
+} */
+/* .singleImg {
+    width: 45%;
+    margin-right: 7px !important;
+} */
+.singleImg img {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    margin: auto;
+}
+
+/* .kitchenImgSlider .sliderHead {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .singleImg {
+    width: 100%;
+    height: 100%;
+} */
+
+
+
+.countRel {
+    position: relative;
+}
+.countTotalOrder {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #E6213C;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+
+
+.pdngbtom {
+    padding-bottom: 2.5rem;
+}
+.logo {
+    display: none;
+}
+.scbginner {
+    min-height: calc(100vh - 100px);
+    transition: .3s;
+}
+.scbginner.active {
+    padding-top: 5rem;
+}
+.section_menu {
+    margin-top: 0;
+}
+
+@media (max-width:510px) {
+    .divide.active, .divide2.active, .divide3.active {
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .closeBtnDivide, .closeBtnDivide2, .closeBtnDivide3, .closeBtnDivideSp {
+        top: 15px !important;
+        right: 25px !important;
+    }
+    .divideCalc, .divideCalc2, .divideCalc3 {
+        width: 100% !important;
+    }
+    /* #people {
+        width: 45% !important;
+    }
+    .divInp button {
+        width: 32% !important;
+    } */
+    .spSpan2 p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 335px) {
+    .spSpan2 img {
+        height: 40% !important;
+    }
+}
+
+
+

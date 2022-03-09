@@ -1,0 +1,90 @@
+
+
+.afterAnimation {
+    min-height: 100vh;
+    background: #F7F3EF;
+}
+
+.bi.bi-person {
+    padding-right: 1rem;
+}
+
+
+.thnkuModal {
+    transition: .3s;
+}
+.thnkuModal.active {
+    padding-top: 5rem;
+}
+/* .formShow.active {
+    top: 52px;
+    opacity: 1;
+    z-index: 1;
+    
+} */
+/* .header form {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    opacity: 0;
+    z-index: -1;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+} */
+/* .header form i {
+    color: #404040;
+    cursor: pointer;
+}
+.header form input {
+    outline: none;
+    border: 1px solid #404040;
+    width: calc(100% - 70px);
+    height: 32px;
+}
+.header form input:focus {
+    outline: none;
+}
+.header form button {
+    width: 70px;
+    height: 32px;
+    background: #17b5c2;
+    color: #fff;
+    border: none;
+} */
+
+.helpModalHeader {
+    padding-left: 1.5rem;
+}
+
+
+
+.thnkuModal {
+    min-height: 50vh;
+    margin: 0 !important;
+    padding-top: .5rem;
+}
+.thnkuModal h1 {
+    font-size: 48px !important;
+    font-weight: 600 !important;
+}
+.thnkuModal i {
+    font-size: 36px;
+}
+
+
+
+
+.accordion-button {
+    background: #F7F3EF;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.accordion-item {
+    background-color: #F7F3EF;
+}
